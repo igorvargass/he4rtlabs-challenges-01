@@ -9,28 +9,41 @@
 </head>
 
 <body>
-
+ 
+  <div id="links">
+    <h2>
+    <a href="sobre.html" > Sobre</a>
+    <a href="index.html">Calculadora</a></h2>
+    <h2>
+</div>
   <div id="titulo">
     <h1><b> Calculator Freela</b></h1>
   </div>
+
+
 
   <div id="heart">
     <a href="https://heartdevs.com/">
     <img src="./Images/he4rtlogo.png" alt="heart" id="image"></a>
   </div>
+   
+
+
   <div>
   Valor do projeto: <input type="number" id="vprojeto" name="vprojeto"><br>
   Horas trabalhadas: <input type="number" id="hrtrab" name="hrtrab"><br>
   Dias efetivos trabalhados na semana: <input type="number" id="diastrab" name="diastrab"><br>
   Dias de férias: <input type="number" id="diasferias" name="diasferias"><br>
-
-  <input type="submit" id="enviar">
+  <input type="submit" id="enviar" onclick="calculo()">
   <input type="reset" id="resetar">
   </div>
 
-
-
-
+ 
+  
+  
+  <div id="resultado">
+    <p id="result">
+  </div>
 
 
   <script src="./main.js"></script>
