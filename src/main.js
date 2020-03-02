@@ -8,7 +8,7 @@ function calculate(){
     var valorHora = (vprojeto / (diastrab * 4 * hrtrab) ) + ( ( diasferias * diastrab * hrtrab ) )
    
     
-    console.log(valorHora)
-    document.getElementById("result").innerHTML =+valorHora;
+    console.log("Resultado: " + valorHora);
+    document.getElementById("result").innerHTML = valorHora;
     
 }
